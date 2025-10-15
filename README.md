@@ -1,14 +1,14 @@
-# URSS — Enumeration and Generation of Simple Unlabelled Graphs
+# URSS - Enumeration and Generation of Simple Unlabelled Graphs
 
 **Author:** Jonathan Glanfield
 
 A concise, didactic implementation for enumerating and generating simple *unlabelled* graphs. The project demonstrates counting by symmetry (Pólya / Burnside), McKay-style canonical labelling for isomorphism testing, and a recursive generator that extends graphs by orbit representatives under automorphism groups.
 
 ## Contents
-- `PET.py` — tools for counting unlabelled graphs using cycle-index / Pólya methods.  
-- `McKay.py` — canonical labelling (equitable refinement, individualisation, search tree) and basic automorphism detection.  
-- `Enumeration.py` — recursive generator producing non-isomorphic simple graphs on *n* vertices.  
-- `Enumeration_and_Generation_of_Simple_Unlabelled_Graphs.pdf` — project report with theory and complexity analysis.
+- `PET.py` - tools for counting unlabelled graphs using cycle-index / Pólya methods.  
+- `McKay.py` - canonical labelling (equitable refinement, individualisation, search tree) and basic automorphism detection.  
+- `Enumeration.py` - recursive generator producing non-isomorphic simple graphs on *n* vertices.  
+- `Enumeration_and_Generation_of_Simple_Unlabelled_Graphs.pdf` - project report with theory and complexity analysis.
 
 ## Requirements
 - Python 3.8+  
