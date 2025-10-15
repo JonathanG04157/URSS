@@ -1,7 +1,7 @@
 import networkx as nx
 from itertools import combinations
-from McKay_Latex import canonical_label_and_aut_group, adj_matrix
-from PET_Latex import count_graphs
+from McKay import canonical_label_and_aut_group, adj_matrix
+from PET import count_graphs
 
 # Function to enumerate all non-isomorphic graphs on n vertices
 def enumerate_graph(n):
